@@ -1,1 +1,41 @@
+**Overview**
+The main goal of this project is to analyze global earthquake activity and explore how these patterns may relate to long-term changes in the Earth’s surface temperature. By using two large and complementary datasets, this project aims to uncover relationships between geological events and environmental trends that are often studied separately. Earthquakes are among the most powerful natural phenomena on Earth, and understanding their patterns in relation to time, depth, magnitude, and location can provide valuable insight into global seismic behavior. However, while earthquakes are driven by tectonic forces, the Earth’s changing climate is also altering several environmental factors such as temperature, pressure, and oceanic conditions. This project will investigate whether there are any observable correlations between temperature changes and earthquake activity over the years.
 
+The project will combine two Kaggle datasets — one focusing on global earthquake data (including depth, magnitude, and tsunami occurrence) and another focusing on Earth surface temperature data compiled by Berkeley Earth. The goal is to merge these datasets through shared dimensions such as time (year) and region to conduct a meaningful comparative analysis. The analysis will not claim direct causation between climate change and earthquakes but will attempt to find patterns and relationships that might inform future studies or provide insights for environmental planning and risk management. Ultimately, the project seeks to use data visualization and statistical interpretation to tell a clear, data-driven story about how the Earth’s geological and environmental systems behave over time.
+
+**Research Questions**
+The central research question guiding this project is: How do earthquake characteristics — such as depth, magnitude, and frequency — change across time and global regions, and are these changes associated with long-term patterns in Earth’s surface temperature? This main question will guide both the analytical and visual exploration phases of the project.
+
+Supporting questions will further shape the investigation. For instance, which regions of the world experience the most frequent or strongest earthquakes, and have those same regions also shown consistent warming trends over the years? Has the average magnitude or depth of earthquakes shifted over time in a way that reflects broader environmental changes? Is there a noticeable pattern in earthquake frequency that appears to align with rising global temperatures? These questions together will help build a comprehensive understanding of whether there are shared trends between environmental and geological data, even if they occur independently. The intention is to explore patterns that can inform both scientific curiosity and practical applications in disaster preparedness, resource management, and long-term climate adaptation strategies.
+
+**Team**
+This project will be completed by two members, George and Qemal, each contributing complementary skills to ensure the project is successful from start to finish. 
+
+George is responsible for researching and preparing the datasets, which includes finding reliable data sources, downloading them, and performing the preliminary cleaning and analysis.
+
+Qemal is responsible for analyzing the datasets in detail and drawing meaningful conclusions from the combined results. His work will involve using Tableau to build interactive visualizations such as scatter plots, time series charts, and heatmaps to uncover trends and patterns.
+
+**Datasets**
+The project uses two main datasets obtained from Kaggle. The first dataset, titled Global Earthquake Data with Tsunami Information, contains detailed information about earthquakes around the world. Each observation includes the date and time of occurrence, magnitude, depth, latitude, longitude, and whether a tsunami event followed the earthquake. The dataset covers thousands of events across multiple decades, providing a rich base for exploring trends in seismic activity. This dataset is particularly valuable for visualizing earthquake patterns spatially, such as identifying which areas experience the strongest quakes or the greatest frequency of seismic activity. By focusing on quantitative variables like magnitude and depth, it also allows for more advanced visualizations such as scatter plots that reveal potential correlations between the two.
+
+The second dataset, titled Climate Change: Earth Surface Temperature Data, comes from Berkeley Earth and is also hosted on Kaggle. It includes records of average land and ocean temperatures over many years, as well as temperature anomalies and measurement uncertainties. The dataset covers global, regional, and country-level data, allowing comparisons across different geographic scales. The variables include country, year, average temperature, and average temperature uncertainty. This dataset provides an environmental dimension to the project, allowing temperature trends to be compared directly with the earthquake data.
+
+To integrate the datasets, earthquake data will be aggregated by year and region, creating annual summaries such as the total number of earthquakes, average magnitude, and average depth for each year. These summaries will then be matched with yearly average temperature data from the climate dataset. By merging on the year variable, the combined dataset will allow for a temporal comparison between temperature trends and seismic activity trends. Additionally, mapping both datasets by region will enable geographic analysis, making it possible to visualize whether certain areas with significant warming also experience more frequent seismic activity.
+
+**Timeline**
+Team selection:
+Due: 26th September 2025 **(Done)**
+Project plan (Initial):  ~2 page project plan (~1000-1500 words).
+Due: 14th October 2025 **(Waiting for revision)**
+Interim status report: ~2 page status report (~1000-1500 words).
+Due: 11th November 2025
+Final project submission: GitHub release of your completed project.
+Due: 10th December 2025
+
+**Constraints**
+There are a few known gaps in the project plan that may require additional input or future refinement. One gap involves geographic accuracy; we may need to seek additional resources or Python tools to correctly map earthquake coordinates to the corresponding countries or regions in the temperature dataset. Another potential gap involves statistical testing. While we plan to use Python to identify patterns visually, running correlation tests such as Pearson’s or Spearman’s correlation coefficients could provide stronger evidence for or against relationships in the data. We may need guidance from instructors on which statistical methods are most appropriate for this type of analysis. Additionally, adding a third dataset — for example, a tectonic plate boundary or volcanic activity dataset — could enhance the project but may go beyond the current timeline. Lastly, feedback on visualization clarity and interpretation from peers or mentors would help improve the quality of our final report.
+
+**Gaps**
+As the project progresses, we plan to build on what we learn in later weeks of the course. We will continue refining our Python scripts to make the analysis more efficient and reproducible. This might include automating parts of the data-cleaning process or writing reusable functions for plotting and analysis. We also plan to add more advanced visualizations using libraries like Plotly or Seaborn to make the results more interactive and appealing. If time allows, we may experiment with regression models to see whether temperature trends can be used as predictors for the frequency of earthquake events.
+
+By the end of the project, our goal is to deliver a complete, well-documented Python-based analysis that clearly explains the relationship between global temperature trends and seismic activity. Our final deliverable will include a clean dataset, a Jupyter Notebook containing all code and visualizations, and a written report summarizing our findings. Through this project, we hope to demonstrate not only technical data analysis skills but also the ability to connect environmental and geological data in meaningful ways.
