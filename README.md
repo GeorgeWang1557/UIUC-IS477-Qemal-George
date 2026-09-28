@@ -1,4 +1,4 @@
-**Course Project IS77: Climate and Earthquake Data Integration Analysis**
+**Course Project IS 477: Climate and Earthquake Data Integration Analysis**
 
 Contributors
 - George Wang
